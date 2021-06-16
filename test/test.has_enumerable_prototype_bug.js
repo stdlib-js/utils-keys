@@ -36,7 +36,7 @@ tape( 'main export is a boolean', function test( t ) {
 
 tape( 'the exported value is `true` if an environment treats a value\'s prototype as enumerable', function test( t ) {
 	var bool = proxyquire( './../lib/has_enumerable_prototype_bug.js', {
-		'@stdlib/assert/is-enumerable-property': mock
+		'@stdlib/assert-is-enumerable-property': mock
 	});
 
 	t.strictEqual( bool, true, 'returns expected value' );
@@ -52,7 +52,7 @@ tape( 'the exported value is `true` if an environment treats a value\'s prototyp
 
 tape( 'the exported value is `false` if an environment does not treat a value\'s prototype as enumerable', function test( t ) {
 	var bool = proxyquire( './../lib/has_enumerable_prototype_bug.js', {
-		'@stdlib/assert/is-enumerable-property': mock
+		'@stdlib/assert-is-enumerable-property': mock
 	});
 
 	t.strictEqual( bool, false, 'returns expected value' );

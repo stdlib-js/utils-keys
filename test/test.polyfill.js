@@ -107,7 +107,7 @@ tape( 'the function returns an array of an object\'s own enumerable property nam
 	var i;
 
 	objectKeys = proxyquire( './../lib/polyfill.js', {
-		'@stdlib/assert/has-own-property': mock
+		'@stdlib/assert-has-own-property': mock
 	});
 
 	expected = [ '0', '1', '2' ];
@@ -162,7 +162,7 @@ tape( 'the function returns an array of an object\'s own enumerable property nam
 
 	objectKeys = proxyquire( './../lib/polyfill.js', {
 		'./has_non_enumerable_properties_bug.js': true,
-		'@stdlib/assert/has-own-property': mock
+		'@stdlib/assert-has-own-property': mock
 	});
 
 	obj = {
@@ -204,7 +204,7 @@ tape( 'the function returns an array of an object\'s own enumerable property nam
 
 	objectKeys = proxyquire( './../lib/polyfill.js', {
 		'./has_non_enumerable_properties_bug.js': true,
-		'@stdlib/assert/has-own-property': mock
+		'@stdlib/assert-has-own-property': mock
 	});
 
 	obj = {
