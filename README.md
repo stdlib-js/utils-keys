@@ -105,6 +105,15 @@ console.log( keys );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/entries`][@stdlib/utils/entries]: return an array of an object's own enumerable property key-value pairs.
+-   [`@stdlib/utils/keys-in`][@stdlib/utils/keys-in]: return an array of an object's own and inherited enumerable property names.
+-   [`@stdlib/utils/nonindex-keys`][@stdlib/utils/nonindex-keys]: return an array of an object's own enumerable property names which are not integer indices.
+-   [`@stdlib/utils/values`][@stdlib/utils/values]: return an array of an object's own enumerable property values.
+
 </section>
 
 <!-- /.related -->
@@ -167,6 +176,18 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-keys/main/LICENSE
 
 [ecma-262-for-in]: http://www.ecma-international.org/ecma-262/5.1/#sec-12.6.4
+
+<!-- <related-links> -->
+
+[@stdlib/utils/entries]: https://github.com/stdlib-js/utils-entries
+
+[@stdlib/utils/keys-in]: https://github.com/stdlib-js/utils-keys-in
+
+[@stdlib/utils/nonindex-keys]: https://github.com/stdlib-js/utils-nonindex-keys
+
+[@stdlib/utils/values]: https://github.com/stdlib-js/utils-values
+
+<!-- </related-links> -->
 
 </section>
 
