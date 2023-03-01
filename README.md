@@ -117,10 +117,10 @@ console.log( keys );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/utils/entries`][@stdlib/utils/entries]</span><span class="delimiter">: </span><span class="description">return an array of an object's own enumerable property key-value pairs.</span>
--   <span class="package-name">[`@stdlib/utils/keys-in`][@stdlib/utils/keys-in]</span><span class="delimiter">: </span><span class="description">return an array of an object's own and inherited enumerable property names.</span>
--   <span class="package-name">[`@stdlib/utils/nonindex-keys`][@stdlib/utils/nonindex-keys]</span><span class="delimiter">: </span><span class="description">return an array of an object's own enumerable property names which are not integer indices.</span>
--   <span class="package-name">[`@stdlib/utils/values`][@stdlib/utils/values]</span><span class="delimiter">: </span><span class="description">return an array of an object's own enumerable property values.</span>
+-   <span class="package-name">[`@stdlib/utils-entries`][@stdlib/utils/entries]</span><span class="delimiter">: </span><span class="description">return an array of an object's own enumerable property key-value pairs.</span>
+-   <span class="package-name">[`@stdlib/utils-keys-in`][@stdlib/utils/keys-in]</span><span class="delimiter">: </span><span class="description">return an array of an object's own and inherited enumerable property names.</span>
+-   <span class="package-name">[`@stdlib/utils-nonindex-keys`][@stdlib/utils/nonindex-keys]</span><span class="delimiter">: </span><span class="description">return an array of an object's own enumerable property names which are not integer indices.</span>
+-   <span class="package-name">[`@stdlib/utils-values`][@stdlib/utils/values]</span><span class="delimiter">: </span><span class="description">return an array of an object's own enumerable property values.</span>
 
 </section>
 
