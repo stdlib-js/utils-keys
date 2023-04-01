@@ -43,7 +43,8 @@
     "@stdlib/assert-is-object-like": "^0.0.8",
     "@stdlib/utils-index-of": "^0.0.8",
     "@stdlib/utils-noop": "^0.0.14",
-    "@stdlib/utils-type-of": "^0.0.8"
+    "@stdlib/utils-type-of": "^0.0.8",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2"
   },
   "devDependencies": {
     "@stdlib/assert-has-symbol-support": "^0.0.8",
