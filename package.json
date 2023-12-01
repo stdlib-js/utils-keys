@@ -43,12 +43,12 @@
     "@stdlib/assert-is-object-like": "^0.1.1",
     "@stdlib/utils-index-of": "^0.1.0",
     "@stdlib/utils-noop": "^0.1.1",
-    "@stdlib/utils-type-of": "^0.1.1"
+    "@stdlib/utils-type-of": "^0.1.2"
   },
   "devDependencies": {
     "@stdlib/assert-has-symbol-support": "^0.1.1",
     "@stdlib/assert-is-array": "^0.1.1",
-    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bench": "^0.2.1",
     "@stdlib/random-base-randu": "^0.1.0",
     "@stdlib/symbol-ctor": "^0.1.1",
     "@stdlib/utils-define-property": "^0.1.1",
