@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
+import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@v0.2.2-deno/mod.js';
 ```
 
 #### objectKeys( obj )
@@ -81,7 +81,7 @@ var keys = objectKeys( obj );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
+import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@v0.2.2-deno/mod.js';
 
 function Foo() {
     this.beep = 'boop';
